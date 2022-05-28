@@ -1,0 +1,11 @@
+<!doctype html>
+    <title>pdf2xlsx</title>
+    <h1>pdf ファイルからテーブルを抜き出してエクセルファイルに変換</h1>
+    <form action="" method=post enctype=multipart/form-data>
+      <p>
+        <label for=file><small>PDFファイル</small></label>
+        <input type=file id=file name=file><br>
+        <label for=pages><small>ページ指定（10, 10-12, all）</small></label>
+        <input type=text id=pages name=pages size=5 value="all"><br>
+        <input type=submit value=Upload>
+    </form>
